@@ -1,0 +1,135 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    color: white;
+    background-color: black;
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+header {
+    position: fixed;
+    left: 60px;
+    top: 52px;
+    transition: opacity 5s ease-in-out;
+}
+
+header:hover {
+    cursor: crosshair;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 3px;
+    letter-spacing: 0.03em;
+    transition: opacity 5s ease-in-out;
+}
+
+h1:hover {
+    cursor: crosshair;
+    opacity: .5;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300px;
+    opacity: .75; 
+    transition: opacity 5s ease-in-out;
+}
+
+p:hover {
+    cursor: crosshair;
+    opacity: .25;
+}
+
+section {
+    background-image: url(assets/curtain.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+section.texture-2 {
+    background-image: url(assets/galaxy.jpg);
+    background-position: center;
+}
+section.texture-3 {
+    background-image: url(assets/coral-warm.jpg);
+    background-position: center;
+}
+section.texture-4 {
+    background-image: url(assets/bread.jpg);
+    background-position: center;
+}
+section.texture-5 {
+    background-image: url(assets/coral-cool.jpg);
+    background-position: center;
+}
+section.texture-6 {
+    background-image: url(assets/paper.jpg);
+    background-position: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 52px;
+    left: 60px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px 0 0;
+    transition: all 0.1s;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+}
+
+a.link-1:hover {
+    color: red;
+}
+
+a.link-2:hover {
+    color:blue;
+}
+
+a.link-3:hover {
+   color: #ffcc00;
+}
+
+a.link-4:hover {
+    color: silver;
+}
+
+@media (max-width: 500px) {
+    
+   body {
+       font-size: 13.5px;
+   }
+   
+    header {
+        
+        top: 40px;
+        left: 35px;
+    }
+
+    h1 {
+        font-size: 36px;
+        font-weight: 550;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    footer {
+        bottom: 40px;
+        left: 35px;
+    }
+
+}
